@@ -30,6 +30,8 @@ Final project file is divide into two parts.
       
       - qNets.py contains the two neural networks
       
+      - parameters.py contains all hyperparameters
+      
       - Graph for each set of actions are indicated in the folder DDQN graph 
      
       Bad Model - DQN is the model which results in NAN (There's no results there)
