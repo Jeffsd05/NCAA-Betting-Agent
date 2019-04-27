@@ -20,15 +20,15 @@ Final project file is divide into two parts.
 
       Go into DDQN-Master
       
-      - run main.py 
+      -bet_env.py is the environment. There you can decide the number of action you want to consider at the top of the file
       
-      - bet_env is the environment
+      - run main.py 
       
       - data contains data_norm.csv
       
       - Agent.py contains the agent decision tools
       
-      - qNets contains the two neural networks
+      - qNets.py contains the two neural networks
       
       - Graph for each set of actions are indicated in the folder DDQN graph 
      
