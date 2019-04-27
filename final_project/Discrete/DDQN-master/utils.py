@@ -1,0 +1,15 @@
+from __future__ import (absolute_import, division, print_function,
+                        unicode_literals)
+
+import numpy as np
+
+
+def prep_input(data, n_dimension):
+    prep = np.asarray(data)
+    transformed = prep.reshape((1, n_dimension+1))
+    return transformed
+
+
+def prep_batch(to_prep):
+    prep = np.vstack(to_prep)
+    return prep
