@@ -3,7 +3,8 @@ from gym import error, spaces, utils
 import pandas as pd
 import numpy as np
 import random
-
+#Decide the number of action
+#Action in [2,3,5]
 NUMBER_ACTION=3
 
 
